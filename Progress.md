@@ -1,8 +1,9 @@
 # Splunk Training Progress
 
-**Started:** April 22, 2026
-**Certification Target:** Splunk Core Certified User
-**Platform:** education.splunk.com
+**Started:** April 22, 2026  
+**Certification Target:** Splunk Core Certified User  
+**Platform:** education.splunk.com  
+**Current Progress: 77% — All free modules COMPLETE**
 
 ---
 
@@ -12,52 +13,50 @@
 |---|--------|------|--------------|-------------|
 | 1 | Intro to Splunk (eLearning) | 04/22/26 | 1 hr | ✅ |
 | 2 | Using Fields (eLearning) | 04/22/26 | 1 hr | ✅ |
+| 3 | Scheduling Reports & Alerts (eLearning) | 04/22/26 | 3 hrs | ✅ |
+| 4 | Visualizations (eLearning) | 04/22/26 | 1 hr | ✅ |
+| 5 | Working with Time (eLearning) | 04/23/26 | 3 hrs | ✅ |
+| 6 | Statistical Processing (eLearning) | 04/23/26 | 3 hrs | ✅ |
+| 7 | Intro to Knowledge Objects (eLearning) | 04/23/26 | 1 hr | ✅ |
 
-**Total Credit Hours Completed: 2**
+**Total: 13 credit hours | 7 certificates earned**
 
 ---
 
-## In Progress
+## Remaining (Paid — Not Available Free)
 
-| Module | Section | Status |
-|--------|---------|--------|
-| Intro to Splunk | Required (1 of 2) | ✅ Complete |
-| Using Fields | Required (1 of 3) | ✅ Complete |
-| Searching with Splunk | — | 🔄 Next |
-| Creating Reports and Dashboards | — | ⬜ Not started |
-| Lookups | — | ⬜ Not started |
-| Scheduled Reports and Alerts | — | ⬜ Not started |
+| Module | Status |
+|--------|--------|
+| Leveraging Lookups and Subsearches | ⛔ ~$150 — equivalent course discontinued |
+| Search Optimization | ⛔ ~$150 — no free eLearning |
+| Get Ready for Your Exam! | ⬜ Optional, free |
+
+All available free content completed. Paid modules (~$300 total) paused until funding available.
 
 ---
 
 ## Key Concepts Learned
 
-### Intro to Splunk
-- Splunk ingests machine data from any source (logs, events, metrics, network traffic)
-- Data flows through: **Input → Parsing → Indexing → Searching**
-- **Index** = where data is stored
-- **Source type** = format of the data (e.g. syslog, json, csv)
-- **SPL** (Search Processing Language) is used to query all data
+**Intro to Splunk:** Data pipeline (Input → Parsing → Indexing → Searching), indexes, source types, SPL basics
 
-### Using Fields
-- Fields are key-value pairs extracted from events (e.g. `src_ip=192.168.1.1`)
-- **Interesting fields** appear in more than 20% of events
-- `fields` command includes/excludes fields from results
-- `table` command displays results in column format
-- `rename` command renames fields for cleaner output
-- Field extraction can be automatic or manual
+**Using Fields:** Field extraction, `fields`, `table`, `rename` commands, interesting fields
 
----
+**Scheduling Reports & Alerts:** Automated reports, threshold-based alerts, alert actions (email, webhook) — critical for SOC monitoring
 
-## SPL Quick Reference
+**Visualizations:** Timechart, chart, dashboard creation, geostats
 
-See `spl-queries/reference.md` for growing list of useful search queries.
+**Working with Time:** `earliest`/`latest` modifiers, `_time` field, `timechart span=`, relative time functions
+
+**Statistical Processing:** `stats`, `eval`, `dedup`, `sort` — foundation of threat hunting
+
+**Intro to Knowledge Objects:** Saved searches, field extractions, tags, event types, lookups — shared resources across SOC team
 
 ---
 
-## Certificates
+## Resume Line
 
-Stored in `certificates/` folder.
+> Splunk Core Certified User path — 77% complete, 7 modules, 13 credit hours. Completed all available free eLearning covering search, statistical processing, visualizations, alert scheduling, time analysis, and knowledge objects.
 
-- ✅ Intro to Splunk — 04/22/26
-- ✅ Using Fields — 04/22/26
+---
+
+*Certificates stored in `certificates/` folder. SPL queries in `spl-queries/reference.md`.*
